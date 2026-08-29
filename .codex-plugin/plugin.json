@@ -1,0 +1,8 @@
+{
+  "name": "watch",
+  "version": "0.3.2",
+  "description": "Let your agent watch a video — scene-change frames + transcript + structured report, with a 0-10s hook microscope and optional Obsidian auto-save.",
+  "repository": "https://github.com/arcasilesgroup/agent-watch",
+  "author": "Arcasiles Group — continuation of taoufik123-collab/claude-watch (MIT)",
+  "license": "MIT"
+}

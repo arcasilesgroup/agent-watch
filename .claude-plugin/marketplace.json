@@ -1,0 +1,21 @@
+{
+  "name": "agent-watch",
+  "metadata": {
+    "description": "Give any coding agent a video input. /watch downloads, extracts scene-change frames, microscopes the 0-10s hook, transcribes via captions or BYO Whisper provider, and optionally auto-saves to your Obsidian vault."
+  },
+  "owner": {
+    "name": "Arcasiles Group"
+  },
+  "plugins": [
+    {
+      "name": "watch",
+      "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts scene-change frames with ffmpeg, runs a 0-10s hook microscope, transcribes via captions or Whisper (Groq/OpenAI/NaN/your own endpoint), emits a structured report.md, optional Obsidian auto-save.",
+      "author": {
+        "name": "Arcasiles Group"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/arcasilesgroup/agent-watch"
+    }
+  ]
+}
